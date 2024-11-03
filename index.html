@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whether-App-Rajesh</title>
+    <link rel="stylesheet" href="display.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Link to Font Awesome -->
+</head>
+
+<body>
+    <form class="weather-form">
+        <input type="text" class="cityInput" placeholder="Enter city"/>
+        <button type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i> <!-- Font Awesome icon -->
+            Get Whether
+        </button>
+    </form>
+
+    <div class="card" style="display: none;">
+        <h1>get your weatherInformation to  <i class="fa-solid fa-magnifying-glass"></i></h1>
+        <div class="cityDisplay">Guntur</div>
+        <p class="tempDisplay">90°C</p>
+        <p class="humidityDisplay">Humidity: 75%</p>
+        <p class="descDisplay">Clear sky</p>
+        <p class="whetherEmoji">🌞</p>
+        <p class="errorDisplay">Please enter the city</p>
+    </div>
+
+    <script src="display.js"></script>
+</body>
+</html>
